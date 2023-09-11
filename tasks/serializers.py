@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Task, Author, Category
+from .models import Task, Category
 
 
 class TaskSerializer(serializers.ModelSerializer):
@@ -7,10 +7,6 @@ class TaskSerializer(serializers.ModelSerializer):
         model = Task
         fields = '__all__'
 
-class AuthorSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Author
-        fields = '__all__'
 
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
