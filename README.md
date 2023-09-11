@@ -40,6 +40,6 @@ To run the Todo project on your local machine, follow these steps:
 
 
 
-- After installation, you can use the Django admin interface to manage tasks, authors, and categories.
+After installation, you can use the Django admin interface to manage tasks, authors, and categories.
 
 
